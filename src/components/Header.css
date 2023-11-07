@@ -1,0 +1,87 @@
+/* Header.css */
+
+.pagina-inicial {
+    background-color: #f5798c;
+    padding: 20px;
+}
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.barra-info {
+    display: flex;
+    align-items: center;
+}
+
+.barra-info img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.barra-info h2 {
+    font-family: Broadway;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+}
+
+.bar-pesquisa {
+    display: flex;
+    align-items: center;
+    max-width: 400px; /* Aumenta a largura da barra de pesquisa */
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden; /* Oculta o conteúdo que excede a largura */
+}
+
+.bar-pesquisa input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.bar-pesquisa button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #c76c6c;
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+.bar-pesquisa input[type="text"] {
+    color: #c76c6c; /* Define a cor do texto do placeholder */
+    opacity: 0.6; /* Define a opacidade do texto do placeholder */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pagina-inicial img {
+    max-width: 100%;
+    height: auto;
+}

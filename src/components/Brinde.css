@@ -1,0 +1,45 @@
+.brinde {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9e8ea;
+}
+
+
+.brinde h3 {
+    font-size: 20px;
+    color: #e85d84;
+    margin-bottom: 10px;
+}
+
+.brinde input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e85d84;
+}
+
+.brinde button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #e85d84;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.brinde button[type='submit']:hover {
+    background-color: #ff6b8e;
+    cursor: pointer;
+}
+
+.mensagem-cadastro {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #e85d84;
+}
